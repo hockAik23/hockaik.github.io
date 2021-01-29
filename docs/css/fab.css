@@ -1,0 +1,123 @@
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:grey;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:32px;
+}
+
+.fab-container {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	z-index: 999;
+	cursor: pointer;
+}
+/*facebook icon*/
+.fab-icon-facebook {
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	background: #3b5998;
+}
+
+.fab-icon-facebook:hover{
+	opacity: 0.8;
+}
+
+.fab-icon-facebook i {
+  position: relative;
+  margin: 0;
+	top: 3px;
+	left: 2px;
+	font-size: 28px;
+	color: #ffffff;
+}
+/*facebook icon*/
+
+/*whatsapp icon*/
+.fab-icon-whatsapp {
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	background: #4fce5d;
+}
+
+.fab-icon-whatsapp:hover{
+	opacity: 0.8;
+}
+
+.fab-icon-whatsapp i {
+  position: relative;
+  margin: 0;
+	top: 3px;
+	right: 0px;
+	font-size: 28px;
+	color: #ffffff;
+}
+/*whatsapp icon*/
+.fab-icon-holder {
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	background: #016fb9;
+
+	box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+.fab-icon-holder:hover{
+	opacity: 0.8;
+}
+
+.fab-icon-holder i {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	height: 100%;
+	font-size: 28px;
+	color: #ffffff;
+}
+
+
+.fab {
+	width: 60px;
+	height: 60px;
+	background: #1a1a1a;
+}
+
+.fab-options {
+	list-style-type: none;
+	margin: 0;
+
+	position: absolute;
+	bottom: 70px;
+	right: 0;
+
+	opacity: 0;
+
+	transition: all 0.3s ease;
+	transform: scale(0);
+	transform-origin: 85% bottom;
+}
+
+.fab:hover + .fab-options, .fab-options:hover {
+	opacity: 1;
+	transform: scale(1);
+}
+
+.fab-options li {
+	display: flex;
+	justify-content: flex-end;
+	padding: 5px;
+}
